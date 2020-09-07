@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": ["/dist/date.js", "background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+       "default_icon": "icons/icon32.png",
+       "default_popup": "popup.html",
+       "default_title": "Ticket Flipping Toolbox"
+    },
+    "description": "Chrome extension for Ticket Flipping members",
+    "icons": {
+       "128": "icons/icon128.png",
+       "16": "icons/icon16.png",
+       "48": "icons/icon48.png"
+    },
+    "manifest_version": 2,
+    "name": "Ticket Flipping Toolbox",
+    "permissions": [
+        "tabs",
+        "cookies",
+        "*://*.google.com/",
+        "https://tix.axs.com/",
+        "activeTab", "storage", "http://*/*", "https://*/*" ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "0.1"
+ }
+ 
